@@ -1,0 +1,9 @@
+{application,gs_cron,
+             [{description,[]},
+              {vsn,"1"},
+              {registered,[]},
+              {applications,[kernel,stdlib]},
+              {mod,{gs_cron_app,[]}},
+              {env,[]},
+              {modules,[cron_agent,cron_agent_sup,gs_cron,gs_cron_app,
+                        gs_cron_sup,gs_cron_util,mochiglobal]}]}.
